@@ -1,2 +1,3 @@
-import toggleApiButton from './js/_apibutton.js';
+import readData from './js/_fetchData.js';
 
+readData();
