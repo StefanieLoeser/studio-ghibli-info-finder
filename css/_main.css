@@ -1,18 +1,16 @@
 .movie-container {
-    overflow-x: scroll;
-    white-space: nowrap;
-    
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .movie__container--figure {
-    display: inline-block;
-    margin:20px 0;
-
+  display: inline-block;
+  margin: 20px 0;
 }
 
 .movie__container--image {
-    _border-radius: 50%;
-    height: 45vh;
-    object-fit: cover;
-    width: 100%;
+  _border-radius: 50%;
+  height: 45vh;
+  object-fit: cover;
+  width: 100%;
 }
