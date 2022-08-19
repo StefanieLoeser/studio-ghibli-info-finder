@@ -1,2 +1,2 @@
-@import './global.css';
-@import './list.css';
+@import './_reset.css';
+@import './_base.css';
