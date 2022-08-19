@@ -1,0 +1,20 @@
+.movie-container {
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr; */
+    overflow-x: scroll;
+    _overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.movie__container--figure {
+    display: inline-block;
+
+}
+
+.movie__container--image {
+    _border-radius: 50%;
+    _height: 15vh;
+    object-fit: contain;
+    height: 50vh;
+}
