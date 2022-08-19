@@ -1,7 +1,6 @@
 main {
-    margin: 5rem 0;
-    text-align: center;
-    display: grid;
-    justify-items: center;
-    
+  margin: 5rem 0;
+  text-align: center;
+  display: grid;
+  justify-items: center;
 }

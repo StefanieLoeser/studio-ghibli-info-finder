@@ -1,3 +1,8 @@
-import readData from './js/_fetchData.js';
+import { movieData } from './js/_fetchData.js';
+import ghibliData from './js/_createElement.js';
+import selector from './js/_selectContent.js';
+import showMovieDetails from './js/_movieDetails.js';
 
-readData();
+ghibliData(movieData);
+selector();
+showMovieDetails();
