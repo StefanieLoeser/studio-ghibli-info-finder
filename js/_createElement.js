@@ -6,7 +6,6 @@ export default function ghibliData(data) {
 
   gallery.innerHTML = '';
 
-
   movies.forEach(movie => {
     const title = document.createElement('option');
     title.textContent = movie.title;
