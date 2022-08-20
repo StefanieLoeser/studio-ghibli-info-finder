@@ -1,16 +1,19 @@
 .movie-container {
-  overflow-x: scroll;
-  white-space: nowrap;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;  
+  scroll-behavior: smooth;
 }
 
 .movie__container--figure {
-  display: inline-block;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 
 .movie__container--image {
-  _border-radius: 50%;
   height: 45vh;
   object-fit: cover;
-  width: 100%;
+  width: 200px;
 }
