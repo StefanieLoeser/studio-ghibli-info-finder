@@ -1,16 +1,15 @@
 .navi {
-  display: flex;
-  _flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   position: fixed;
   top: 0;
   width: 100%;
   height: fit-content;
   padding: 1rem;
-
   background-color: silver;
 }
 
 h1 {
+  justify-self: center;
+  align-self: center;
 }
