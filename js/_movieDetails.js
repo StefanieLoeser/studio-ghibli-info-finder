@@ -1,8 +1,10 @@
 import ghibliData from './_createElement.js';
 import { movieData } from './_fetchData.js';
+import createDetails from './_createDetails.js';
 
 export default function showMovieDetails() {
-  const figures = document.querySelectorAll('[data-js="singleMovie"]');
+  const figures = document.querySelectorAll('[data-js=singleMovie]');
+  const resetButton = document.querySelector('[data-js=resetButton]');
   figures.forEach(figure => {
     figure.addEventListener('click', () => {
       const figureCaption = figure.querySelector('[data-js="caption"]');
@@ -10,6 +12,8 @@ export default function showMovieDetails() {
         movieData.find(o => o.title === figureCaption.textContent),
       ];
       ghibliData(movieTitle);
+      resetButton.classList.remove('hidden');
+      createDetails(movieTitle);
     });
   });
 }
