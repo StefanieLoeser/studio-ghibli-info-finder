@@ -1,5 +1,6 @@
 import ghibliData from './_createElement.js';
 import { movieData } from './_fetchData.js';
+import createDetails from './_createDetails.js';
 
 export default function showMovieDetails() {
   const figures = document.querySelectorAll('[data-js=singleMovie]');
@@ -12,6 +13,7 @@ export default function showMovieDetails() {
       ];
       ghibliData(movieTitle);
       resetButton.classList.remove('hidden');
+      createDetails(movieTitle);
     });
   });
 }

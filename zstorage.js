@@ -1,8 +1,8 @@
 
 // describtion container
-const descriptionbox = document.createElement('section');
-descriptionbox.classList.add('movie__container--descriptionbox');
-movie.append(descriptionbox);
+// const descriptionbox = document.createElement('section');
+// descriptionbox.classList.add('movie__container--descriptionbox');
+// movie.append(descriptionbox);
 
 // description 
 const description = document.createElement('div');
