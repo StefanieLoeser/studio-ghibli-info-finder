@@ -13,6 +13,7 @@
   width: 50vw;
   height: 25px;
   border-radius: 10px;
+  justify-self: center;
 }
 
 .dropdown__menu:hover {
