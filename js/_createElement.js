@@ -9,6 +9,7 @@ export default function ghibliData(data) {
     const title = document.createElement('option');
     title.textContent = movie.title;
     title.setAttribute('value', movie.title);
+    title.classList.add('dropdown__menu--option')
     dropdown.append(title);
 
     const figure = document.createElement('figure');

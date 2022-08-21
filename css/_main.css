@@ -13,6 +13,7 @@
 .movie__container--figure {
   margin: 0 10px;
   margin-top: 20px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .movie__container--image {
@@ -25,4 +26,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.movie__infolist--item {
+  font-family: 'Comfortaa', cursive;
 }

@@ -3,19 +3,32 @@
   width: 100%;
   background-color: rgba(196, 194, 194, 0.143);
   justify-items: center;
-  padding: 10px;
+  /* padding: 10px; */
   height: max-content;
 }
 .dropdown__menu {
-  _max-width: 200px;
+  max-width: 400px;
   width: 50vw;
+  border-radius: 10px;
   min-width: 250px;
 }
 
 .dropdown__label {
   color: white;
+  max-height: 25px;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 5px;
+}
+
+.dropdown__menu--option{
+  font-family: 'Comfortaa', cursive;
 }
 
 .resetbutton {
-  margin: 20px auto;
+  padding: 3px 20px;
+  margin: 5px auto;
+  border:none;
+  border-radius: 10px;
+  background: white;
+  font-family: 'Comfortaa', cursive;
 }
