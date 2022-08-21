@@ -18,6 +18,8 @@ export default function selector() {
     } else {
       ghibliData(movieData);
       showMovieDetails();
+      dropdown.value = "default";
+      reset.classList.add('hidden');
     }
   });
 }

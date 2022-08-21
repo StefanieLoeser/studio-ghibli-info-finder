@@ -4,6 +4,7 @@ export default function ghibliData(data) {
   const dropdown = document.querySelector('[data-js="dropdown"]');
 
   gallery.innerHTML = '';
+  dropdown.selectIndex = 0;
 
   movies.forEach(movie => {
     const title = document.createElement('option');
