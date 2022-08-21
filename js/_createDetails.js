@@ -9,8 +9,6 @@ export default function createDetails(movie) {
     `Running Time: ${movieObject.running_time} min`,
   ];
 
-  console.log(movieObject);
-
   const movieContainer = document.querySelector('[data-js=movie]');
 
   // describtion container
