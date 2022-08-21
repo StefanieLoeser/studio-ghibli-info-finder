@@ -6,10 +6,11 @@
   width: 100%;
   height: fit-content;
   padding: 1rem;
-  background-color: silver;
+  background-color: rgb(222, 56, 56);
 }
 
 h1 {
+  font-family: 'Comfortaa', cursive;
   justify-self: center;
   align-self: center;
 }

@@ -2,7 +2,6 @@ export default function ghibliData(data) {
   const movies = data;
   const gallery = document.querySelector('[data-js="movie"]');
   const dropdown = document.querySelector('[data-js="dropdown"]');
-  console.log(movies);
 
   gallery.innerHTML = '';
 

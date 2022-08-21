@@ -7,5 +7,3 @@ export default async function saveMovies() {
 }
 
 export const movieData = await saveMovies();
-
-console.log(movieData);
