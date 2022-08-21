@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Ghibli Info Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" src="" />
+    <script defer type="module" src="index.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studio Ghibli Info Finder</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Nanum+Gothic:wght@400;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" src="" />
-  <script defer type="module" src="index.js"></script>
-</head>
+  <body>
+    <header>
+      <nav class="navi" data-js="navi">
+        <img
+          class="ghibli-logo"
+          height="80"
+          src="./assets/Studio_Ghibli_Logo.svg"
+          alt="Studio Ghibli Logo"
+        />
+        <h1 class="navi__header">Info Finder</h1>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav class="navi" data-js="navi">
-      <img class="ghibli-logo" height="80" src="./assets/Studio_Ghibli_Logo.svg" alt="Studio Ghibli Logo" />
-      <h1 class="navi__header">Info Finder</h1>
-    </nav>
-  </header>
-
-  <main>
-    <div class="dropdown">
-      <label class="dropdown__label" for="dropdown">Find your Studio Ghibli Movie:</label>
-      <select class="dropdown__menu" id="dropdown" data-js="dropdown">
-        <option value="default" default></option>
-      </select>
-      <button type="button" class="resetbutton hidden" data-js="resetButton">
-        reset selection
-      </button>
-    </div>
-    <article class="movie-container" data-js="movie"></article>
-  </main>
-  <footer>
-    <p></p>
-  </footer>
-</body>
-
+    <main>
+      <div class="dropdown">
+        <label class="dropdown__label" for="dropdown"
+          >Find your Studio Ghibli Movie:</label
+        >
+        <select class="dropdown__menu" id="dropdown" data-js="dropdown">
+          <option value="default" default></option>
+        </select>
+        <button type="button" class="resetbutton hidden" data-js="resetButton">
+          reset selection
+        </button>
+      </div>
+      <article class="movie-container" data-js="movie"></article>
+    </main>
+    <footer>
+      <p></p>
+    </footer>
+  </body>
 </html>
