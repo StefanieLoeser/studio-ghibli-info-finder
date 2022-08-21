@@ -1,16 +1,23 @@
 .navi {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
   height: fit-content;
   padding: 1rem;
-  background-color: rgb(222, 56, 56);
+  background-color: #03A9F4;
+  ;
+}
+
+.ghibli-logo {
+  color: white;
 }
 
 h1 {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
+  text-transform: uppercase;
+  color: black;
   justify-self: center;
-  align-self: center;
+  align-self: flex-end;
 }

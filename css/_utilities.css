@@ -1,3 +1,21 @@
 .hidden {
   display: none;
 }
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(97, 97, 97, 1) 100%, rgba(163, 163, 163, 0) 100%);
+}
+
+main {
+  margin-top: 8rem;
+  text-align: center;
+  display: grid;
+
+}
+
+
+/* 
+Default Font Families
+font-family: 'Comfortaa', cursive;
+font-family: 'Nanum Gothic', sans-serif; */

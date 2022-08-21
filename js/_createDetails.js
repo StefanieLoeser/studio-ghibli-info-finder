@@ -1,12 +1,12 @@
 export default function createDetails(movie) {
   const movieObject = movie[0];
   const infoArray = [
-    `Original Movie Title: ${movieObject.original_title} / ${movieObject.original_title_romanised}`,
-    `Description: ${movieObject.description}`,
-    `Director: ${movieObject.director}`,
-    `Producer: ${movieObject.producer}`,
-    `Release Date: ${movieObject.release_date}`,
-    `Running Time: ${movieObject.running_time} min`,
+    `Original Title:  ${movieObject.original_title} / ${movieObject.original_title_romanised}`,
+    `Description:  ${movieObject.description}`,
+    `Director:  ${movieObject.director}`,
+    `Producer:  ${movieObject.producer}`,
+    `Release Date:  ${movieObject.release_date}`,
+    `Running Time:  ${movieObject.running_time} min`,
   ];
 
   const movieContainer = document.querySelector('[data-js=movie]');

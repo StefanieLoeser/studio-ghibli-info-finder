@@ -1,0 +1,48 @@
+.movie-container {
+    padding: 30px 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    color: white;
+    /* background-color: rgba(196, 194, 194, 0.143); */
+}
+
+.movie__container--figure {
+    margin: 0 10px;
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.movie__container--figure:hover {
+    cursor: pointer;
+}
+
+.movie__container--image {
+    height: 25rem;
+    object-fit: cover;
+    width: auto;
+}
+
+.movie__container--caption {
+    font-size: 0.8rem;
+    margin: 20px;
+    font-style: bold;
+}
+
+.movie__container--descriptionbox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.movie__infolist--item {
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 50px 10px 30px;
+    font-size: 1rem;
+    max-width: 40rem;
+}

@@ -26,6 +26,7 @@ export default function ghibliData(data) {
     const movieTitle = document.createElement('figcaption');
     movieTitle.textContent = movie.title;
     movieTitle.setAttribute('data-js', 'caption');
+    movieTitle.classList.add('movie__container--caption');
     figure.append(movieTitle);
   });
 }
