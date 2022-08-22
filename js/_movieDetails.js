@@ -7,13 +7,13 @@ export default function showMovieDetails() {
   const resetButton = document.querySelector('[data-js=resetButton]');
   figures.forEach(figure => {
     figure.addEventListener('click', () => {
-      const figureCaption = figure.querySelector('[data-js="caption"]');
-      const movieTitle = [
-        movieData.find(o => o.title === figureCaption.textContent),
+      const movieTitle = figure.querySelector('[data-js="caption"]');
+      const movie = [
+        movieData.find(o => o.title === movieTitle.textContent),
       ];
-      ghibliData(movieTitle);
+      ghibliData(movie);
       resetButton.classList.remove('hidden');
-      createDetails(movieTitle);
+      createDetails(movie);
     });
   });
 }
