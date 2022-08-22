@@ -10,6 +10,7 @@ export default function ghibliData(data) {
     const title = document.createElement('option');
     title.textContent = movie.title;
     title.setAttribute('value', movie.title);
+    title.classList.add('dropdown__menu--option');
     dropdown.append(title);
 
     const figure = document.createElement('figure');
@@ -26,6 +27,7 @@ export default function ghibliData(data) {
     const movieTitle = document.createElement('figcaption');
     movieTitle.textContent = movie.title;
     movieTitle.setAttribute('data-js', 'caption');
+    movieTitle.classList.add('movie__container--caption');
     figure.append(movieTitle);
   });
 }

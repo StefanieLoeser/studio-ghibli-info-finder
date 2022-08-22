@@ -5,42 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio Ghibli Info Finder</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Nanum+Gothic:wght@400;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/styles.css" src="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
     <script defer type="module" src="index.js"></script>
   </head>
 
   <body>
     <header>
       <nav class="navi" data-js="navi">
-        <img
-          class="ghibli-logo"
-          height="50"
-          src="./assets/Studio_Ghibli_wordmark.svg"
-          alt="Studio Ghibli Logo"
-        />
-        <h1 class="navi__header">Info Finder</h1>
+        <h1 class="navi__header">Studio Ghibli Info Finder</h1>
+        <img src="./assets/Studio_Ghibli_Logo.svg" alt="Ghibli Logo" />
       </nav>
     </header>
 
     <main>
-      <div class="dropdown">
-        <label class="dropdown__label" for="dropdown"
-          >Find your Studio Ghibli Movie:</label
-        >
-        <select class="dropdown__menu" id="dropdown" data-js="dropdown">
-          <option value="" default></option>
-        </select>
-        <button type="button" class="resetbutton hidden" data-js="resetButton">
-          Auswahl zurücksetzen
-        </button>
-      </div>
-      <article class="movie-container" data-js="movie"></article>
+      <label class="dropdown__label" for="dropdown"
+        >Find your Studio Ghibli Movie:</label
+      >
+      <select class="dropdown__menu" id="dropdown" data-js="dropdown">
+        <option value="" default></option>
+      </select>
+      <button type="button" class="resetbutton hidden" data-js="resetButton">
+        Reset selection
+      </button>
+
+      <!-- <div class="scrollbuttoncontainer">
+      <button class="scrollbuttoncontainer__scrollbutton scroll-arrow" id="slideLeft" type="button">
+        <img src="./assets/arrow_left_icon.png" alt="scroll left arrow">
+      </button>
+      <button class="scrollbuttoncontainer__scrollbutton scroll-arrow" id="slideRight" type="button">
+        <img src="./assets/arrow_right_icon.png" alt="scroll right button">
+      </button>
+      </div> -->
+
+      <!---<div class="scrollbuttoncontainer">
+        <button class="scrollbuttoncontainer__scrollbutton scroll-arrow" id="slideLeft" type="button">scroll left</button>
+        <button class="scrollbuttoncontainer__scrollbutton scroll-arrow" id="slideRight" type="button">scroll right</button>
+      </div> --->
+
+      <article
+        class="movie-container"
+        data-js="movie"
+        id="movie-container"
+      ></article>
     </main>
     <footer>
       <p></p>

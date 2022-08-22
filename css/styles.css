@@ -1,7 +1,7 @@
 @import './_reset.css';
-@import './_base.css';
+@import './_moviecontainer.css';
 @import './_header.css';
-@import './_main.css';
 @import './_dropdown.css';
 @import './_mediaquery.css';
 @import './_utilities.css';
+@import './_scrollbutton.css';

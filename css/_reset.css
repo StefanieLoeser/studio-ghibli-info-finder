@@ -1,14 +1,14 @@
 :root {
   --primary: #e6beae;
-  --primary-light: #eee4e1;
-  --secondary: #b2967d;
+  --primary-light: rgba(196, 194, 194, 0.143);
+  --secondary: rgb(222, 56, 56);
   --secondary-light: #e7d8c9;
   --white: #ecf8f8;
   --black: #211103;
 
   /* font-family */
 
-  --ff-sans: sans-serif;
+  --ff-sans: 'Nanum Gothic', sans-serif;
   --ff-serif: serif;
 
   /* font-size */
@@ -43,7 +43,7 @@ p {
 
 body {
   line-height: 1.5;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   /* var(--fs-400) */
   background-color: rgb(23, 27, 25);
 }
@@ -55,11 +55,12 @@ ol[class] {
   margin: 0;
 }
 
-ul[class] li,
+/* ul[class] li,
 ol[class] li {
   list-style: none;
   padding: 0;
-}
+} */
+
 /* Typography */
 
 .text-serif {
