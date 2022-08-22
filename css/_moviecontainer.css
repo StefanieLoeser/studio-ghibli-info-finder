@@ -34,6 +34,8 @@
 }
 
 .movie__container--descriptionbox {
+  color:white;
+  list-style: none;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -41,6 +43,7 @@
 }
 
 .movie__infolist--item {
+  color:white;
   font-family: 'Comfortaa', cursive;
   padding: 10px 50px 10px 30px;
   font-size: 1rem;

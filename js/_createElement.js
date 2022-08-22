@@ -1,9 +1,11 @@
 export default function ghibliData(data) {
   const movies = data;
   const gallery = document.querySelector('[data-js="movie"]');
+  const detailBox = document.querySelector('[data-js="description-container"]');
   const dropdown = document.querySelector('[data-js="dropdown"]');
 
   gallery.innerHTML = '';
+  detailBox.innerHTML = '';
   dropdown.selectIndex = 0;
 
   movies.forEach(movie => {
