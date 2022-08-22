@@ -11,10 +11,6 @@ export default function selector() {
     const filteredMovie = movieData.filter(
       movie => movie.title === event.target.value
     );
-    console.log(filteredMovie);
-
-    // if (typeof filteredMovie === 'object')
-
     if (filteredMovie.length > 0) {
       ghibliData(filteredMovie);
       reset.classList.remove('hidden');
@@ -22,8 +18,8 @@ export default function selector() {
     } else {
       ghibliData(movieData);
       showMovieDetails();
+      dropdown.value = "default";
+      reset.classList.add('hidden');
     }
-
-    console.log(filteredMovie);
   });
 }

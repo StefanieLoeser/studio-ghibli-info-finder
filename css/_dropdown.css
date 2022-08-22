@@ -1,5 +1,21 @@
+.dropdown {
+  display: grid;
+  width: 100%;
+  background-color: rgba(196, 194, 194, 0.143);
+  justify-items: center;
+  padding: 10px;
+  height: max-content;
+}
 .dropdown__menu {
   _max-width: 200px;
   width: 50vw;
   min-width: 250px;
+}
+
+.dropdown__label {
+  color: white;
+}
+
+.resetbutton {
+  margin: 20px auto;
 }

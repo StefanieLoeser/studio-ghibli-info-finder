@@ -1,6 +1,11 @@
 main {
-  margin: 5rem 0;
+  margin-top: 8rem;
   text-align: center;
   display: grid;
   justify-items: center;
 }
+
+/* 
+Default Font Families
+font-family: 'Comfortaa', cursive;
+font-family: 'Nanum Gothic', sans-serif; */
