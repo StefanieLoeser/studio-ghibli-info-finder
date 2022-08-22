@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio Ghibli Info Finder</title>
     <link rel="stylesheet" href="css/styles.css" src="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
     <script defer type="module" src="index.js"></script>
   </head>
 
@@ -13,7 +16,7 @@
     <header>
       <nav class="navi" data-js="navi">
         <h1 class="navi__header">Studio Ghibli Info Finder</h1>
-        <img src="./assets/Studio_Ghibli_Logo.svg" alt="Ghibli Logo">
+        <img src="./assets/Studio_Ghibli_Logo.svg" alt="Ghibli Logo" />
       </nav>
     </header>
 
@@ -25,7 +28,7 @@
         <option value="" default></option>
       </select>
       <button type="button" class="resetbutton hidden" data-js="resetButton">
-        Auswahl zurücksetzen
+        Reset selection
       </button>
 
       <!-- <div class="scrollbuttoncontainer">
@@ -42,7 +45,11 @@
         <button class="scrollbuttoncontainer__scrollbutton scroll-arrow" id="slideRight" type="button">scroll right</button>
       </div> --->
 
-      <article class="movie-container" data-js="movie" id="movie-container"></article>
+      <article
+        class="movie-container"
+        data-js="movie"
+        id="movie-container"
+      ></article>
     </main>
     <footer>
       <p></p>
